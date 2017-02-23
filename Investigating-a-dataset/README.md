@@ -864,11 +864,11 @@ df.head()
 
 # Initial wondering about the data:
 
-Let's try to guess what happens when comparing Age and Survived, does it makes sense that we express Age with discrete values?
+Let's try to guess what happens when comparing Age and Survived, does it makes sense that we express Age with continuous values?
 
 #### What do the Age value can tell us?
 
-For problems age might give us a good guess of how a person can perform better or worse (in average) than others as we're looking at "Age" of some kind of physical capabilities indicator (measuring how we loose those capabilities overtime), in a case scenario where people's lives depend on a person individual physical performace, expressing age with discrete values can make sense and highly correlate with an arbitrary person Survival rate.
+For problems age might give us a good guess of how a person can perform better or worse (in average) than others as we're looking at "Age" of some kind of physical capabilities indicator (measuring how we loose those capabilities overtime), in a case scenario where people's lives depend on a person individual physical performace, expressing age with continue values canhighly correlate with an arbitrary person Survival rate.
 
 The data being investigated here refers to a disaster that occurred in a ship, surviving doesn't follow the same metrics (correlate to the same features) as it would be in a "lost in the jungle" or "1 Vs 1 fight" situation, for instance.
 
@@ -878,8 +878,7 @@ To reinforce why I think Age would be better expressed another way, let's pictur
 
 It is common knowledge that in ship sinking situation the priority would be "Women and children first", so we will check if that applies here.
 
-That's why I'll probably express Ages on groups, it can be a Range of ages or Categories but Age as a bunch of discrete float values just doesn't seem very promissing as a feature at the moment.
-
+That's why I'll probably express Ages on groups of discrete values, it can be a Range of ages or Categories but Age as a bunch of continuous values doesn't seem very promissing as a feature at the moment.
 
 Under this environment, what I would actually expect is that Age would be more reasonably expressed another way, maybe with categories like: Infant, Children, Young and Old. Even though some of those categories may not correlate at all with Survival rates and we better drop unecessary features.
 
