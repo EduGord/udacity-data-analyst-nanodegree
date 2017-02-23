@@ -4,14 +4,16 @@ This is my project submissions for [Udacity Data Analyst Nanodegree](https://www
 
 ## Project 1: [Test a Perceptual Phenomenon](https://github.com/LordHogi/udacity-data-analyst-nanodegree/tree/master/Test-a-perceptual-phenomenon)
 
-## Project 2: [Investigating a Dataset]
+## Project 2: [Investigating a Dataset](https://github.com/LordHogi/udacity-data-analyst-nanodegree/tree/master/Investigating-a-dataset)
 
-## Project 3: [Wrangle OpenStreetMap Data]
+# To accomplish:
 
-## Project 4: [Explore and Summarize Data]
+## Project 3: Wrangle OpenStreetMap Data
 
-## Project 5: [Identify Fraud from Enron Email]
+## Project 4: Explore and Summarize Data
 
-## Project 6: [Make Effective Data Visualization]
+## Project 5: Identify Fraud from Enron Email
 
-## Project 7: [Design an A/B Test]
+## Project 6: Make Effective Data Visualization
+
+## Project 7: Design an A/B Test

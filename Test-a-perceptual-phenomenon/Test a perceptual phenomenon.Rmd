@@ -1,8 +1,8 @@
 ---
 title: 'P1: Test a Perceptual Phenomenon'
 output:
-  html_document: default
   html_notebook: default
+  html_document: default
   word_document: default
 ---
 Statistics: The Science of Decisions Project Instructions
