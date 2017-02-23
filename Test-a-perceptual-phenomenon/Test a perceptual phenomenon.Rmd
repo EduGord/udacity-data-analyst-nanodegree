@@ -1,9 +1,6 @@
 ---
 title: 'P1: Test a Perceptual Phenomenon'
-output:
-  html_notebook: default
-  html_document: default
-  word_document: default
+output: md_document
 ---
 Statistics: The Science of Decisions Project Instructions
 
@@ -17,7 +14,7 @@ As a general note, be sure to keep a record of any resources that you use or ref
 **1.	What is our independent variable? What is our dependent variable?**
 
 The independent variables are categorical variables assuming the congruent words or incongruent words condition.
-The dependent variable is the time input each person report for each word condition.
+The dependent variable is the time input each person report for each (in)congrency condition.
 
 
 **2.	What is an appropriate set of hypotheses for this task? What kind of statistical test do you expect to perform? Justify your choices.**
