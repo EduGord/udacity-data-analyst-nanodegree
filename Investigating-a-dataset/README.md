@@ -1101,7 +1101,7 @@ plt.legend(bbox_to_anchor=(0., 1.02, .3, 0.), loc=3,
 
 
 
-    <matplotlib.legend.Legend at 0x69ee390>
+    <matplotlib.legend.Legend at 0x66bb710>
 
 
 
@@ -1567,7 +1567,7 @@ Dummy.sample(n=10)
   </thead>
   <tbody>
     <tr>
-      <th>194</th>
+      <th>830</th>
       <td>0</td>
       <td>0</td>
       <td>1</td>
@@ -1577,77 +1577,7 @@ Dummy.sample(n=10)
       <td>0</td>
     </tr>
     <tr>
-      <th>129</th>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>353</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>175</th>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>629</th>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>443</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>630</th>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>405</th>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>188</th>
+      <th>304</th>
       <td>0</td>
       <td>0</td>
       <td>1</td>
@@ -1657,7 +1587,27 @@ Dummy.sample(n=10)
       <td>0</td>
     </tr>
     <tr>
-      <th>299</th>
+      <th>69</th>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>702</th>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>208</th>
       <td>0</td>
       <td>0</td>
       <td>1</td>
@@ -1665,6 +1615,56 @@ Dummy.sample(n=10)
       <td>0</td>
       <td>0</td>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>213</th>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>663</th>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>161</th>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>470</th>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>111</th>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
     </tr>
   </tbody>
 </table>
@@ -1705,7 +1705,7 @@ plt.title('Stacked Survivors Barplot - Males vs Females')
 
 
 
-    <matplotlib.text.Text at 0xb7189b0>
+    <matplotlib.text.Text at 0xbb27c50>
 
 
 
@@ -1873,7 +1873,7 @@ g.legend(['Died','Survived'])
 
 
 
-    <matplotlib.legend.Legend at 0x9c24780>
+    <matplotlib.legend.Legend at 0xbde99b0>
 
 
 
@@ -1951,7 +1951,7 @@ plt.title('Survival Rates split by Sex')
 
 
 
-    <matplotlib.text.Text at 0xb742908>
+    <matplotlib.text.Text at 0x98e0ba8>
 
 
 
@@ -1971,29 +1971,15 @@ There are many limitations on this analysis and I'm sure much more can be done t
 
 # *Extra: Prediction attempt
 
-### I barely know what I am doing here but here's it anyway:
-
 
 ```python
-from sklearn.naive_bayes import GaussianNB
+from sklearn.ensemble import RandomForestClassifier
 ```
 
 
 ```python
 def predict(features,labels):
-    classifier = GaussianNB()
-    return classifier.fit(features,labels)
-```
-
-
-```python
-from sklearn import svm
-```
-
-
-```python
-def pred(features,labels):
-    classifier = svm.SVC(kernel='rbf')
+    classifier = RandomForestClassifier(n_estimators=100)
     return classifier.fit(features,labels)
 ```
 
@@ -2172,15 +2158,12 @@ def dataframes_for_modeling(df):
 
 ```python
 def accuracy_range_after_n_tests(df,n):
-    minimum, maximum = (1,0)
+    storage = []
     for i in range(0,n):
         a, b, c, d = dataframes_for_modeling(df)
         clfx = predict(a,b)
-        if clfx.score(c,d) > maximum:
-            maximum = clfx.score(c,d)
-        if clfx.score(c,d) < minimum:
-            minimum = clfx.score(c,d)
-    return minimum,maximum
+        storage += [clfx.score(c,d)]
+    return (pd.Series(storage).describe())
 ```
 
 
@@ -2191,7 +2174,15 @@ accuracy_range_after_n_tests(df_test,1000)
 
 
 
-    (0.61971830985915488, 0.91549295774647887)
+    count    1000.000000
+    mean        0.809845
+    std         0.045352
+    min         0.676056
+    25%         0.774648
+    50%         0.816901
+    75%         0.845070
+    max         0.929577
+    dtype: float64
 
 
 
@@ -2203,59 +2194,20 @@ accuracy_range_after_n_tests(Dummy2,1000)
 
 
 
-    (0.59154929577464788, 0.90140845070422537)
-
-
-
-
-```python
-def accuracy_range_after_n_tests_svm(df,n):
-    ai = []
-    for i in range(0,100):
-        a, b, c, d = dataframes_for_modeling(df_test)
-        clfx = pred(a,b)
-        ai += [clfx.score(c,d)]
-    return(pd.Series(ai).describe())
-```
-
-
-```python
-accuracy_range_after_n_tests_svm(df_test,100)
-```
-
-
-
-
-    count    100.000000
-    mean       0.798310
-    std        0.046082
-    min        0.690141
-    25%        0.760563
-    50%        0.802817
-    75%        0.830986
-    max        0.915493
+    count    1000.000000
+    mean        0.783930
+    std         0.044326
+    min         0.633803
+    25%         0.760563
+    50%         0.788732
+    75%         0.816901
+    max         0.929577
     dtype: float64
 
 
 
+**After a couple attempts predictions accuracy seems to be around 63%-93%**
 
-```python
-accuracy_range_after_n_tests_svm(Dummy2,100)
-```
+Low accuracy results probably occur due to random sampling picking several "hard" 10% data points to predict (ie: testing set with a lot of woman that died) and high accuracy occurrences the opposite (picking a lot of "easy" guesses).
 
-
-
-
-    count    100.000000
-    mean       0.792676
-    std        0.047334
-    min        0.633803
-    25%        0.760563
-    50%        0.788732
-    75%        0.816901
-    max        0.901408
-    dtype: float64
-
-
-
-**After a couple attempts predictions accuracy seems to be around 53%-96%**
+A more sober (less excited) assumption is to expect prediction accuracy around 70% (~ mean - 2 x std)
